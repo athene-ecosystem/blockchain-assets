@@ -3,8 +3,7 @@
     "name": "Sroll L1 Testnet",
     "chain": "ETH",
     "rpc": [
-      "https://prealpha-rpc.scroll.io/l1",
-      "https://scroll-l1-testnet-node.blockwallet.io"
+      "https://prealpha-rpc.scroll.io/l1"
     ],
     "faucets": ["https://prealpha.scroll.io/faucet"],
     "nativeCurrency": {

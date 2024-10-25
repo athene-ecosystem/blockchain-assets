@@ -1,8 +1,8 @@
 {
   "1": {
     "rpc": [
-      "https://mainnet-node.blockwallet.io",
-      "https://mainnet.blockwallet.io"
+      "https://rpc.ankr.com/eth",
+      "https://eth-mainnet.public.blastapi.io"
     ],
     "scanApi": "https://api.etherscan.io"
   },
@@ -16,8 +16,8 @@
   },
   "5": {
     "rpc": [
-      "https://goerli-node.blockwallet.io",
-      "https://goerli.blockwallet.io"
+      "https://rpc.goerli.mudit.blog",
+      "https://gateway.tenderly.co/public/goerli"
     ],
     "scanApi": "https://api-goerli.etherscan.io",
     "nativeCurrency": {
@@ -29,8 +29,8 @@
   },
   "10": {
     "rpc": [
-      "https://optimism-node.blockwallet.io",
-      "https://optimism.blockwallet.io"
+      "https://optimism.rpc.subquery.network/public",
+      "https://optimism-mainnet.public.blastapi.io"
     ],
     "scanApi": "https://api-optimistic.etherscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/ethereum/info/logo.png"
@@ -56,7 +56,7 @@
   },
   "30": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/rsk/assets/0x/logo.png",
-    "rpc": ["https://rsk-node.blockwallet.io", "https://rsk.blockwallet.io"]
+    "rpc": ["https://rootstock-mainnet.public.blastapi.io", "https://rootstock.drpc.org"]
   },
   "31": {
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/rsk/assets/0x/logo.png",
@@ -72,7 +72,7 @@
     "scanApi": "http://zyxscan.com"
   },
   "56": {
-    "rpc": ["https://bsc-node.blockwallet.io", "https://bsc.blockwallet.io"],
+    "rpc": ["https://bsc.blockpi.network/v1/rpc/public", "https://bsc-dataseed4.ninicoin.io"],
     "scanApi": "https://api.bscscan.com"
   },
   "57": {
@@ -122,7 +122,7 @@
     "scanApi": "https://blockscout.com/poa/core"
   },
   "100": {
-    "rpc": ["https://xdai-node.blockwallet.io", "https://xdai.blockwallet.io"],
+    "rpc": ["https://endpoints.omniatech.io/v1/gnosis/mainnet/public", "https://rpc.ankr.com/gnosis"],
     "scanApi": "https://blockscout.com/xdai/mainnet",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/xdai/assets/0x/logo.png"
   },
@@ -151,8 +151,8 @@
   },
   "137": {
     "rpc": [
-      "https://polygon-node.blockwallet.io",
-      "https://polygon.blockwallet.io"
+      "https://polygon.llamarpc.com",
+      "https://polygon.blockpi.network/v1/rpc/public"
     ],
     "scanApi": "https://api.polygonscan.com"
   },
@@ -195,8 +195,8 @@
   },
   "250": {
     "rpc": [
-      "https://fantom-node.blockwallet.io",
-      "https://fantom.blockwallet.io"
+      "https://fantom-mainnet.public.blastapi.io",
+      "https://fantom.blockpi.network/v1/rpc/public"
     ],
     "scanApi": "https://api.ftmscan.com"
   },
@@ -215,10 +215,7 @@
     "scanApi": "https://hscan.org"
   },
   "280": {
-    "rpc": [
-      "https://zksync-testnet-node.blockwallet.io",
-      "https://zksync-testnet.blockwallet.io"
-    ]
+    "rpc": []
   },
   "288": {
     "scanApi": "https://blockexplorer.boba.network"
@@ -229,8 +226,8 @@
   },
   "324": {
     "rpc": [
-      "https://zksync-node.blockwallet.io",
-      "https://zksync.blockwallet.io"
+      "https://api.zan.top/zksync-mainnet",
+      "https://mainnet.era.zksync.io"
     ]
   },
   "338": {
@@ -305,8 +302,8 @@
   },
   "1101": {
     "rpc": [
-      "https://polygon-zkevm-node.blockwallet.io",
-      "https://polygon-zkevm.blockwallet.io"
+      "https://polygon-zkevm.blockpi.network/v1/rpc/public",
+      "https://polygon-zkevm-mainnet.public.blastapi.io"
     ]
   },
   "1214": {
@@ -520,8 +517,8 @@
   },
   "42161": {
     "rpc": [
-      "https://arbitrum-node.blockwallet.io",
-      "https://arbitrum.blockwallet.io"
+      "https://arbitrum.llamarpc.com",
+      "https://arbitrum.blockpi.network/v1/rpc/public"
     ],
     "scanApi": "https://api.arbiscan.io",
     "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/ethereum/info/logo.png"
@@ -541,7 +538,7 @@
     "isTestnet": true
   },
   "43114": {
-    "rpc": ["https://avax-node.blockwallet.io", "https://avax.blockwallet.io"],
+    "rpc": ["https://avalanche-c-chain-rpc.publicnode.com", "https://endpoints.omniatech.io/v1/avax/mainnet/public"],
     "scanApi": "https://api.snowtrace.io"
   },
   "44787": {
@@ -623,8 +620,7 @@
   },
   "534352": {
     "rpc": [
-      "https://scroll-node.blockwallet.io",
-      "https://scroll.blockwallet.io",
+      "https://scroll-mainnet.chainstacklabs.com",     
       "https://rpc.scroll.io/"
     ]
   },
@@ -814,6 +810,29 @@
       {
         "name": "Morph Holesky Testnet Explorer",
         "url": "https://explorer-holesky.morphl2.io/",
+        "standard": "none"
+      }
+    ]
+  },
+  "281123": {
+    "name": "Athene Parthenon",
+    "chain": "ETH",
+    "infoURL": "https://athene.network/",
+    "shortName": "parthenon",
+    "chainId": 281123,
+    "networkId": 281123,
+    "logo": "https://athene.network/api/v1.0/icon/tokens/ATH.png",
+    "nativeCurrencyIcon": "https://raw.githubusercontent.com/athene-ecosystem/assets/master/blockchains/ethereum/info/logo.png",
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": ["https://rpc.parthenon.athenescan.io"],
+    "explorers": [
+      {
+        "name": "Athene Parthenon Explorer",
+        "url": "https://parthenon.athenescan.io/",
         "standard": "none"
       }
     ]
